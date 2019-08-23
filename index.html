@@ -1,0 +1,90 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Title for the tab-->
+    <title>Train HW</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Pro&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!--Container 1-->
+    <div class="container">
+
+        <div class="jumbotron">
+            <!--Title in jumbotron-->
+            <h1 class="text-center" id="Header">AG Express</h1>
+            <!--Sub header-->
+            <p class="text-center" id="Sub">Making travel simpler</p>
+
+        </div>
+
+    </div>
+    <!--Container 1 End -->
+
+    <!--Container 2-->
+    <div class="container">
+        <!-- Form for displaying all the train schedule-->
+        <h2 align="center">Train Station Schedule</h2>
+        <!--<ul class="list-group">
+            <li class="list-group-item">First Line</li>
+            <li class="list-group-item">Second Line</li>
+            <li class="list-group-item">Third Line</li>
+
+        </ul>-->
+    </div>
+    <!--Container 2 End-->
+
+    <!--Container 3-->
+
+    <div class="container">
+        <h2 align="center">Add Train Form</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <!--Form for inputting name of the train-->
+
+                    <input type="text" class="form-control submission" id="Train-ID" placeholder="Train Name">
+                </div>
+                <div class="form-group col-md-3">
+
+                    <input type="text" class="form-control" id="Location" placeholder="Destination">
+                </div>
+
+                <div class="form-group col-md-3">
+
+                    <input type="text" class="form-control" id="Time" placeholder="First Train Time (HH:mm) - military time">
+                </div>
+
+                <div class="form-group col-md-3">
+
+                    <input type="text" class="form-control" id="Frequency" placeholder="Frequency (In Minutes)">
+                </div>
+            </div>
+
+
+            <div class="buttonHolder">
+                <button type="submit" style="width:150px; height:50px;" class="btn btn-primary">Add Train</button>
+            </div>
+        </form>
+    </div>
+    <!--Container 3 End-->
+
+    <!--Source link for firebase-->
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+
+</body>
+
+</html>
