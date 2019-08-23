@@ -1,0 +1,29 @@
+body {
+    background-image: url(Station.jpg);
+    background-size: 100% 100%;
+}
+
+#Header {
+    font-family: 'Crimson Pro', serif;
+    font-size: 78px;
+    color: rgb(100, 160, 180);
+}
+
+p {
+    font-size: 24px;
+    color: rgb(100, 160, 180);
+}
+
+h2 {
+    color: white;
+    padding: 15px;
+}
+
+.container {
+    background-color: rgb(0, 15, 97);
+}
+
+.buttonHolder {
+    text-align: center;
+    padding: 10px;
+}
